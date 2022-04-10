@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/irshaw/tech-osu-blog/issues"
   },
-  "homepage": "https://github.com/irshaw/tech-osu-blog#readme"
+  "homepage": "https://github.com/irshaw/tech-osu-blog#readme",
+  "dependencies": {
+    "path": "^0.12.7"
+  }
 }
