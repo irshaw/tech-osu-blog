@@ -25,6 +25,8 @@ users.init(
             sequelize,
             freezeTableName: true,
             underscored: true,
-            modelName: 'dish',
+            modelName: 'users',
           }
         );
+
+        module.exports = users;

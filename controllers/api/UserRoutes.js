@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const { User } = require('../../models');
+const { User, users } = require('../../models');
 
 router.post('/login', async (req, res) => {
     try {
@@ -9,7 +9,7 @@ router.post('/login', async (req, res) => {
         },
       });
   
-      if (!user) {
+      if (!users) {
         res.status(400).json({ message: 'No user account found!' });
         return;
       }
