@@ -8,6 +8,8 @@ This is a project was created at OSU Coding Bootcamp course. The application is 
 - Server instructions 
 - Credit
 
+# Herkou deployment
+https://tech-blog-osuu.herokuapp.com
 
 # Server instructions 
 npm i - installing the dependencies
